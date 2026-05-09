@@ -2,9 +2,9 @@
 
 This repository contains data supporting the paper:
 
-**Title:** [Melting temperature shifts from quantum fluctuations in generalized Wigner crystals]
+**Title:** Melting temperature shifts from quantum fluctuations in generalized Wigner crystals
 **Authors:** Aman Kumar, Sogoud Sherif, Veit Elser, Hitesh J. Changlani  
-**Journal:** [submitted / PRX]  
+**Journal:** submitted / PRX
 **Year:** 2026
 
 ## Directory structure

@@ -154,7 +154,7 @@ for col, (root, lr_dir, nn_dir, size_label, density_label) in enumerate(systems)
 
     # ✅ Special handling for n = 1/3
     if col == 0:
-        special_files_lr = ["cv_J1.8372_Nsample_200.txt", "cv_J0_Nsample_200.txt"]
+        special_files_lr = ["cv_J1.8_Nsample_200.txt", "cv_J0_Nsample_200.txt"]
         special_files_nn = ["cv_J1.8_Nsample_200.txt","cv_J0.0_Nsample_200.txt"]
 
     # ----- Top row (LR) ----- #
