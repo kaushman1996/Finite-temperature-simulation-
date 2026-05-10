@@ -39,9 +39,8 @@ These codes are provided for transparency and reproducibility.
   Monte Carlo simulation codes implementing **parallel tempering** to study thermal melting and finite‑temperature properties of generalized Wigner crystal phases.
 
 - `FTLM_codes/`  
-  Codes implementing the **Finite‑Temperature Lanczos Method (FTLM)** for computing thermodynamic quantities and spectral properties from exact diagonalization.
+  Codes implementing the **Finite‑Temperature Lanczos Method (FTLM)** for computing thermodynamic quantities. 
 
-The codes are written for research use and may require adaptation (e.g., system size, parameters, or HPC settings) depending on the application.
 
 ---
 
