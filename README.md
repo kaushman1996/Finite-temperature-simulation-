@@ -1,6 +1,6 @@
-# Data for: Melting temperature shifts from quantum fluctuations in generalized Wigner crystals
+# Data and codes for: Melting temperature shifts from quantum fluctuations in generalized Wigner crystals
 
-This repository contains the data supporting the manuscript:
+This repository contains the data and selected representative codes supporting the manuscript:
 
 **Title:** *Melting temperature shifts from quantum fluctuations in generalized Wigner crystals*  
 **Authors:** Aman Kumar, Sogoud Sherif, Veit Elser, Hitesh J. Changlani  
@@ -11,8 +11,13 @@ This repository contains the data supporting the manuscript:
 
 ## Repository contents
 
-The repository is organized by figure number, following the structure of the manuscript.  
-Each directory contains the raw data and processed data used to generate the corresponding figure.
+The repository is organized into two main parts:  
+(i) **figure-resolved data directories**, and  
+(ii) **codes used to generate the data**.
+
+### Figure data
+
+Each directory below contains the raw and processed data used to generate the corresponding figure in the manuscript or appendices.
 
 - `Figure1/` – Data for Fig. 1  
 - `Figure2/` – Data for Fig. 2  
@@ -25,26 +30,42 @@ Each directory contains the raw data and processed data used to generate the cor
 
 ---
 
-## Methods and reproducibility
+### Codes
 
-All data were generated using:
-- Exact diagonalization and Monte Carlo simulations
-- Implementations based on the **QuSpin** library, supplemented by custom analysis scripts
+The following directories contain the simulation and analysis codes used to produce the data in this repository.  
+These codes are provided for transparency and reproducibility.
 
-The directory structure is designed to allow direct reproduction of all figures in the manuscript from the provided data.
+- `MC_parallel_tempering_codes/`  
+  Monte Carlo simulation codes implementing **parallel tempering** to study thermal melting and finite‑temperature properties of generalized Wigner crystal phases.
+
+- `FTLM_codes/`  
+  Codes implementing the **Finite‑Temperature Lanczos Method (FTLM)** for computing thermodynamic quantities and spectral properties from exact diagonalization.
+
+The codes are written for research use and may require adaptation (e.g., system size, parameters, or HPC settings) depending on the application.
 
 ---
 
-## Contact
+## Methods and reproducibility
 
-For questions or requests related to the data, please contact:
+All data were generated using a combination of:
+- Exact diagonalization and FTLM calculations
+- Monte Carlo simulations with parallel tempering
+- Implementations based on the **QuSpin** library, supplemented by custom numerical and analysis scripts
 
-**Aman Kumar**  
-Email: akumar@magnet.fsu.edu
+The directory structure is designed to allow direct reproduction of all figures in the manuscript using the supplied data and codes.
 
 ---
 
 ## Notes
 
-- All energies are reported in the units specified in the manuscript.
-- Parameter conventions and normalization schemes follow those defined in the main text and appendices.
+- Energy, temperature, and interaction parameters follow the conventions defined in the main text and appendices of the manuscript.
+- Simulation details and parameter choices are described in the paper; figure‑specific details may also be documented within individual directories.
+
+---
+
+## Contact
+
+For questions related to the data or codes, please contact:
+
+**Aman Kumar**  
+Email: akumar@magnet.fsu.edu
