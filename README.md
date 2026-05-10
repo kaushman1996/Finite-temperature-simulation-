@@ -32,15 +32,16 @@ Each directory below contains the raw and processed data used to generate the co
 
 ### Codes
 
-The following directories contain the simulation and analysis codes used to produce the data in this repository.  
-These codes are provided for transparency and reproducibility.
+The following directories contain the numerical simulation and analysis codes used to produce the data in this repository.  
+They are provided for transparency and reproducibility.
 
 - `MC_parallel_tempering_codes/`  
   Monte Carlo simulation codes implementing **parallel tempering** to study thermal melting and finite‑temperature properties of generalized Wigner crystal phases.
 
-- `FTLM_codes/`  
-  Codes implementing the **Finite‑Temperature Lanczos Method (FTLM)** for computing thermodynamic quantities. 
+- `FTLM_and_ED_codes/`  
+  Codes implementing **exact diagonalization (ED)** and the **Finite‑Temperature Lanczos Method (FTLM)** for computing thermodynamic observables and finite‑temperature properties of the model Hamiltonians studied in this work.
 
+The codes are written for research use and may require modification (e.g., system size, interaction parameters, or high‑performance computing settings) for reproduction or extension.
 
 ---
 
@@ -58,7 +59,7 @@ The directory structure is designed to allow direct reproduction of all figures 
 ## Notes
 
 - Energy, temperature, and interaction parameters follow the conventions defined in the main text and appendices of the manuscript.
-- Simulation details and parameter choices are described in the paper; figure‑specific details may also be documented within individual directories.
+- Detailed simulation parameters are described in the paper; figure‑specific notes may also be included within individual directories.
 
 ---
 
