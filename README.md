@@ -4,7 +4,6 @@ This repository contains the data and selected representative codes supporting t
 
 **Title:** *Melting temperature shifts from quantum fluctuations in generalized Wigner crystals*  
 **Authors:** Aman Kumar, Sogoud Sherif, Veit Elser, Hitesh J. Changlani  
-**Journal:** Submitted 
 **Year:** 2026
 
 ---
